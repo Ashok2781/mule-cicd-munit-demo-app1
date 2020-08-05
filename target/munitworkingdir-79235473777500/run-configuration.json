@@ -1,0 +1,76 @@
+{
+  "runToken": "f771e962-79e7-40f6-ae27-5e26dc993d05",
+  "projectName": "mule-cicd-demo-app1",
+  "domainLocation": "",
+  "tags": [],
+  "testNames": [],
+  "suitePaths": [
+    "mule-cicd-demo-app1-suite.xml"
+  ],
+  "allSuitePaths": [
+    "mule-cicd-demo-app1-suite.xml"
+  ],
+  "skipAfterFailure": false,
+  "notifierConfigurations": [
+    {
+      "clazz": "org.mule.munit.remote.notifiers.ConsoleNotifier",
+      "parameters": [
+        {
+          "name": "runToken",
+          "type": "java.lang.String",
+          "value": "f771e962-79e7-40f6-ae27-5e26dc993d05"
+        }
+      ]
+    }
+  ],
+  "coverageConfiguration": {
+    "runCoverage": true,
+    "randomizeCoveragePort": true,
+    "suitePaths": [
+      "mule-cicd-demo-app1-suite.xml"
+    ],
+    "ignoredFiles": [],
+    "ignoredFlowNames": []
+  },
+  "containerConfiguration": {
+    "runtimeId": "4.3.0",
+    "product": "MULE_EE",
+    "munitWorkingDirectoryPath": "C:\\New_Repo\\mule-cicd-munit-demo-app1\\target\\munitworkingdir-79235473777500",
+    "log4JConfigurationFilePath": "C:\\New_Repo\\mule-cicd-munit-demo-app1\\target\\test-classes\\log4j2-test.xml",
+    "mavenConfiguration": {
+      "settingsXmlFilePath": "C:\\Users\\342607\\.m2\\settings.xml",
+      "globalSettingsXmlFilePath": "C:\\Maven\\apache-maven-3.3.9-bin\\apache-maven-3.3.9\\conf\\settings.xml",
+      "mavenRepositoryDirectoryPath": "C:\\Maven\\m2repo",
+      "offlineMode": false,
+      "forcePolicyUpdate": true,
+      "ignoreArtifactDescriptorRepositories": false,
+      "remoteRepositories": [
+        {
+          "id": "mule-ee-public",
+          "url": "https://repository.mulesoft.org/nexus/content/repositories/releases"
+        },
+        {
+          "id": "MuleRepository-ee",
+          "url": "https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee"
+        },
+        {
+          "id": "mulesoft-releases",
+          "url": "https://repository.mulesoft.org/releases/"
+        },
+        {
+          "id": "central",
+          "url": "https://repo.maven.apache.org/maven2"
+        }
+      ]
+    },
+    "serverPluginConfigurations": [
+      {
+        "groupId": "com.mulesoft.munit.plugins",
+        "artifactId": "munit-coverage-plugin",
+        "version": "2.2.5",
+        "type": "jar",
+        "classifier": "mule-server-plugin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MULE_EE.4.3.0.mule-cicd-demo-app1-suite" time="7.566" failures="0" errors="0" skipped="1" tests="2">
+  <properties>
+    <property key="sun.desktop" value="windows"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.specification.version" value="11"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.class.path" value="C:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.variant" value=""/>
+    <property key="java.vendor.url" value="http://java.oracle.com/"/>
+    <property key="user.timezone" value="Asia/Calcutta"/>
+    <property key="os.name" value="Windows 10"/>
+    <property key="java.vm.specification.version" value="11"/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="user.country" value="US"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.3\bin"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package -DskipMunitTest"/>
+    <property key="jdk.debug" value="release"/>
+    <property key="maven.home" value="C:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="user.home" value="C:\Users\342607"/>
+    <property key="user.language" value="en"/>
+    <property key="sun.stderr.encoding" value="cp437"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="java.version.date" value="2019-04-16"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk-11.0.3"/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vm.compressedOopsMode" value="32-bit"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="sun.stdout.encoding" value="cp437"/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="user.script" value=""/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="java.runtime.version" value="11.0.3+12-LTS"/>
+    <property key="user.name" value="342607"/>
+    <property key="skipMunitTest" value="true"/>
+    <property key="path.separator" value=";"/>
+    <property key="os.version" value="10.0"/>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="java.vendor.version" value="18.9"/>
+    <property key="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property key="java.io.tmpdir" value="C:\Users\342607\AppData\Local\Temp\"/>
+    <property key="java.version" value="11.0.3"/>
+    <property key="user.dir" value="C:\New_Repo\mule-cicd-munit-demo-app1"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="maven.multiModuleProjectDirectory" value="C:\New_Repo\mule-cicd-munit-demo-app1"/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="sun.os.patch.level" value=""/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk-11.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk-11.0.3\bin;C:\Program Files (x86)\Webex\Webex\Applications;C:\Users\342607\AppData\Local\Microsoft\WindowsApps;C:\Users\342607\AppData\Roaming\npm;C:\Users\342607\AppData\Local\Programs\Git\cmd;."/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.vm.version" value="11.0.3+12-LTS"/>
+    <property key="classworlds.conf" value="C:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="java.class.version" value="55.0"/>
+    <property key="munit.system.properties.file" value="C:\New_Repo\mule-cicd-munit-demo-app1\target\user.system.properties"/>
+    <property key="org.glassfish.grizzly.DEFAULT_MEMORY_MANAGER" value="org.glassfish.grizzly.memory.HeapMemoryManager"/>
+  </properties>
+  <testcase time="0.0" name="failure-test" classname="MULE_EE.4.3.0.mule-cicd-demo-app1-suite">
+    <skipped/>
+  </testcase>
+  <testcase time="3.677" name="success-test" classname="MULE_EE.4.3.0.mule-cicd-demo-app1-suite"/>
+</testsuite>

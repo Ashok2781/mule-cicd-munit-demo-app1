@@ -1,0 +1,13 @@
+{
+  "runCoverage": true,
+  "failBuild": false,
+  "requiredApplicationCoverage": 50.0,
+  "requiredResourceCoverage": 50.0,
+  "requiredFlowCoverage": 50.0,
+  "ignoreFlows": [],
+  "ignoreFiles": [],
+  "formats": [
+    "console",
+    "html"
+  ]
+}
