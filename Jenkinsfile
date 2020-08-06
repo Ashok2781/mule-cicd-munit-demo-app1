@@ -66,7 +66,7 @@ pipeline {
         stage('Publish Coverage Report') {
             steps {
                 echo "Publishing Coverage Report..."
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'target\\site\\munit\\coverage', reportFiles: 'index.html', reportName: 'Coverage Report', reportTitles: 'summary.html'])
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'target\\site\\munit\\coverage', reportFiles: 'index.html', reportName: 'Coverage Report', reportTitles: 'summary.html'])
             }
             post {
                 success {
