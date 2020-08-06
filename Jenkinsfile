@@ -168,7 +168,7 @@ pipeline {
 void dropLocalReleaseBranch() {
     echo "Starting Drop Local Release Branch: ${env.BUILD_VERSION} ..."
     sh "git checkout development"
-    sh "git branch -d '${env.BUILD_VERSION}'"
+    sh "git branch -D '${env.BUILD_VERSION}'"
     echo "...Local Release Branch ${env.BUILD_VERSION} Dropped"
 	sh "git push"
 }
