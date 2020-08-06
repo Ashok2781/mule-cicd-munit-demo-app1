@@ -1,9 +1,9 @@
 {
   "runCoverage": true,
   "failBuild": false,
-  "requiredApplicationCoverage": 50.0,
-  "requiredResourceCoverage": 50.0,
-  "requiredFlowCoverage": 50.0,
+  "requiredApplicationCoverage": 90.0,
+  "requiredResourceCoverage": 90.0,
+  "requiredFlowCoverage": 90.0,
   "ignoreFlows": [],
   "ignoreFiles": [],
   "formats": [

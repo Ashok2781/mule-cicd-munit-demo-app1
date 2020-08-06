@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MULE_EE.4.3.0.mule-cicd-demo-app1-suite" time="7.566" failures="0" errors="0" skipped="1" tests="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MULE_EE.4.3.0.mule-cicd-demo-app1-suite" time="21.9" failures="0" errors="0" skipped="1" tests="2">
   <properties>
     <property key="sun.desktop" value="windows"/>
     <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property key="sun.java.launcher" value="SUN_STANDARD"/>
     <property key="user.country" value="US"/>
     <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.3\bin"/>
-    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package -DskipMunitTest"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property key="jdk.debug" value="release"/>
     <property key="maven.home" value="C:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
     <property key="sun.cpu.endian" value="little"/>
@@ -38,7 +38,6 @@
     <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property key="java.runtime.version" value="11.0.3+12-LTS"/>
     <property key="user.name" value="342607"/>
-    <property key="skipMunitTest" value="true"/>
     <property key="path.separator" value=";"/>
     <property key="os.version" value="10.0"/>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -68,5 +67,5 @@
   <testcase time="0.0" name="failure-test" classname="MULE_EE.4.3.0.mule-cicd-demo-app1-suite">
     <skipped/>
   </testcase>
-  <testcase time="3.677" name="success-test" classname="MULE_EE.4.3.0.mule-cicd-demo-app1-suite"/>
+  <testcase time="13.291" name="success-test" classname="MULE_EE.4.3.0.mule-cicd-demo-app1-suite"/>
 </testsuite>
