@@ -43,7 +43,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 echo "Starting Build and Test..."
-                sh "mvn -Dmaven.test.failure.ignore clean verify"
+                sh "mvn clean test"
                 echo "Build and Test: ${currentBuild.currentResult}"
             }
             post {
