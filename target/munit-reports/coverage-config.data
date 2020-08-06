@@ -1,6 +1,6 @@
 {
   "runCoverage": true,
-  "failBuild": true,
+  "failBuild": false,
   "requiredApplicationCoverage": 90.0,
   "requiredResourceCoverage": 90.0,
   "requiredFlowCoverage": 90.0,
