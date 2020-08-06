@@ -37,10 +37,10 @@
 						<workerType>${workerType}</workerType> <workers>${workers}</workers> </cloudHubDeployment> -->
 
 
-					<standaloneDeployment>
+					<!--standaloneDeployment>
 						<muleHome>D:/suresh/mule-runtime-430/standalone-1</muleHome>
 						<muleVersion>${app.runtime}</muleVersion>
-					</standaloneDeployment>
+					</standaloneDeployment-->
 
 
 					<sharedLibraries>
