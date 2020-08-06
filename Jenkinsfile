@@ -42,9 +42,13 @@ pipeline {
    
         stage('Build and Test') {
             steps {
-                echo "Starting Build and Test..."
-                sh "mvn clean test"
+				script {
+					echo "Starting Build and Test..."
+                    configFileProvider([configFile(fileId: 'fa7cc012-67aa-4ebb-8ee1-e6528128c306', targetLocation: 'settings.xml', variable: 'MAVEN_SETTINGS_XML')]) {
+                        sh 'mvn -U --batch-mode -s $MAVEN_SETTINGS_XML clean test'
+                    }
                 echo "Build and Test: ${currentBuild.currentResult}"
+                }
             }
             post {
                 success {
