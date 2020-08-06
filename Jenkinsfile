@@ -43,7 +43,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 echo "Starting Build and Test..."
-                sh "mvn clean test"
+                sh "mvn clean"
                 echo "Build and Test: ${currentBuild.currentResult}"
             }
             post {
