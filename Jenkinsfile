@@ -170,4 +170,5 @@ void dropLocalReleaseBranch() {
     sh "git checkout development"
     sh "git branch -d '${env.BUILD_VERSION}'"
     echo "...Local Release Branch ${env.BUILD_VERSION} Dropped"
+	sh "git push"
 }
