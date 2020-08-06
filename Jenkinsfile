@@ -58,6 +58,22 @@ pipeline {
                 }
             }
         }
+		
+        stage('Publish Coverage Report') {
+            steps {
+                echo "Publishing Coverage Report..."
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'target\\site\\munit\\coverage', reportFiles: 'index.html', reportName: 'Coverage Report', reportTitles: 'summary.html'])
+            }
+            post {
+                success {
+                    echo "...Code Coverage Report published successfully"
+                } 
+                unsuccessful {
+                    echo "...Code Coverage Report Not published successfully"
+                }
+            }
+        }
+		
         
         stage('Push Release Branch') {
             steps {
