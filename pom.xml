@@ -69,7 +69,7 @@
 				<configuration>
 					<coverage>
 						<runCoverage>true</runCoverage>
-						<failBuild>false</failBuild>
+						<failBuild>true</failBuild>
 
 						<requiredApplicationCoverage>90</requiredApplicationCoverage>
 						<requiredResourceCoverage>90</requiredResourceCoverage>
